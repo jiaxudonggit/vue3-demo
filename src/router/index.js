@@ -36,6 +36,11 @@ export const routes = [
     name: 'element-demo',
     component: () => import('@/views/ElementDemo'),
   },
+  {
+    path: '/auto-import-demo',
+    name: 'auto-import-demo',
+    component: () => import('@/views/AutoImportDemo'),
+  },
 ]
 
 const router = createRouter({
